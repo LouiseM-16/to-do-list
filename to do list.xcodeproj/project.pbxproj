@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA32EFF9248F28AB00A9A3DE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32EFF8248F28AB00A9A3DE /* TableViewController.swift */; };
+		AA32EFFB248F293900A9A3DE /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32EFFA248F293900A9A3DE /* ToDo.swift */; };
 		AAB376AA248EA94800BBFA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB376A9248EA94800BBFA2A /* AppDelegate.swift */; };
 		AAB376AC248EA94800BBFA2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB376AB248EA94800BBFA2A /* SceneDelegate.swift */; };
-		AAB376AE248EA94800BBFA2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB376AD248EA94800BBFA2A /* ViewController.swift */; };
 		AAB376B1248EA94800BBFA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB376AF248EA94800BBFA2A /* Main.storyboard */; };
 		AAB376B4248EA94800BBFA2A /* to_do_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB376B2248EA94800BBFA2A /* to_do_list.xcdatamodeld */; };
 		AAB376B6248EA94C00BBFA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB376B5248EA94C00BBFA2A /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA32EFF8248F28AB00A9A3DE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AA32EFFA248F293900A9A3DE /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		AAB376A6248EA94800BBFA2A /* to do list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to do list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB376A9248EA94800BBFA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB376AB248EA94800BBFA2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAB376AD248EA94800BBFA2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAB376B0248EA94800BBFA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAB376B3248EA94800BBFA2A /* to_do_list.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = to_do_list.xcdatamodel; sourceTree = "<group>"; };
 		AAB376B5248EA94C00BBFA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		AAB3769D248EA94800BBFA2A = {
 			isa = PBXGroup;
 			children = (
+				AA32EFF8248F28AB00A9A3DE /* TableViewController.swift */,
 				AAB376A8248EA94800BBFA2A /* to do list */,
 				AAB376A7248EA94800BBFA2A /* Products */,
 			);
@@ -60,8 +63,8 @@
 			children = (
 				AAB376A9248EA94800BBFA2A /* AppDelegate.swift */,
 				AAB376AB248EA94800BBFA2A /* SceneDelegate.swift */,
-				AAB376AD248EA94800BBFA2A /* ViewController.swift */,
 				AAB376AF248EA94800BBFA2A /* Main.storyboard */,
+				AA32EFFA248F293900A9A3DE /* ToDo.swift */,
 				AAB376B5248EA94C00BBFA2A /* Assets.xcassets */,
 				AAB376B7248EA94C00BBFA2A /* LaunchScreen.storyboard */,
 				AAB376BA248EA94C00BBFA2A /* Info.plist */,
@@ -141,10 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB376AE248EA94800BBFA2A /* ViewController.swift in Sources */,
 				AAB376AA248EA94800BBFA2A /* AppDelegate.swift in Sources */,
+				AA32EFFB248F293900A9A3DE /* ToDo.swift in Sources */,
 				AAB376AC248EA94800BBFA2A /* SceneDelegate.swift in Sources */,
 				AAB376B4248EA94800BBFA2A /* to_do_list.xcdatamodeld in Sources */,
+				AA32EFF9248F28AB00A9A3DE /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
